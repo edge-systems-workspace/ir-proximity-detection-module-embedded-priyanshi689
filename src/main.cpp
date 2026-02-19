@@ -41,6 +41,7 @@ void loop() {
     } else {
         Serial.println("No Obstacle");
     }
+    delay(300);
 
     // TODO 6:
     // Read digital value from IR sensor
