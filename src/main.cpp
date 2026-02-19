@@ -21,6 +21,7 @@ int irState = LOW;
 void setup() {
     Serial.begin(9600);
     pinMode(IR_PIN, INPUT);
+    Serial.println("IR obstacle detection system initialized");
 
     // TODO 3:
     // Initialize Serial communication (9600 baud rate)
