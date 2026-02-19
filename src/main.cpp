@@ -9,6 +9,8 @@
  * Reads digital input from IR sensor
  * and detects obstacle presence.
  */
+#define IR_PIN 2
+int irState = LOW;
 
  // TODO 1:
  // Define IR sensor digital pin (Use pin 2)
