@@ -19,6 +19,8 @@ int irState = LOW;
  // Create variable to store sensor state
 
 void setup() {
+    Serial.begin(9600);
+    pinMode(IR_PIN, INPUT);
 
     // TODO 3:
     // Initialize Serial communication (9600 baud rate)
